@@ -1,0 +1,26 @@
+body{
+    background-color: #ece8db;
+}
+h1, h2, label, *{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+img{
+    width: 300px;
+    margin: 10px;
+}
+
+/* hide the "no file selected text" */
+input[type="file"]{
+    font-size: 0;
+}
+/* chrome, edge, safari */
+input[type="file"]::-webkit-file-upload-button{
+    /* restore font size on the button */
+    font-size: 16px;
+}
+/* firefox (and modern cross-browser) */
+input[type="file"]::file-selector-button{
+    /* restore font size on the button */
+    font-size: 16px;
+}
