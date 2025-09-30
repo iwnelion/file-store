@@ -4,7 +4,7 @@ A simple website where users can upload images and PDFs that get saved in a fold
 
 **Link to project:** (wip)
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](file-store.gif)
 
 ## How It's Made:
 
